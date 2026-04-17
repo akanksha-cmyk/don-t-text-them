@@ -1,0 +1,17 @@
+{
+  "name": "dont-text-them",
+  "version": "1.0.0",
+  "description": "An iMessage agent that talks you out of texting your situationship",
+  "type": "module",
+  "scripts": {
+    "start": "bun run agent.ts",
+    "nudges": "bun run nudges.ts"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.39.0",
+    "@photon-ai/imessage-kit": "^2.1.2"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  }
+}
